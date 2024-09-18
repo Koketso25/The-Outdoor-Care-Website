@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('Rain Forest.jpg');
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form-container {
+    background-color: rgb(19, 77, 77, .6);
+    backdrop-filter: blur;
+    padding: 20px;
+    border-radius: 48px 0;
+    box-shadow: 0 0 10px rgb(14, 78, 104);
+    width: 30%;
+    max-width: 600px;
+}
+
+.login-form-container, h1 {
+    color: whitesmoke;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group, label {
+    color: whitesmoke;
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form-group input, .form-group textarea {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid rgb(2, 102, 102);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group button {
+    background-color: rgb(2, 102, 102);
+    backdrop-filter: blur;
+    color: aquamarine;;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 0 0 0 4px;
+}
+
+.form-group button:hover {
+    background-color: rgb(2, 102, 102);
+}
+
+.signup-link {
+    margin-top: 20px;
+    text-align: center;
+    color: #fffbfb;
+}
+
+.signup-link a {
+    color: #6e8efb;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.signup-link a:hover {
+    color:#5a7ce8;
+}

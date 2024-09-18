@@ -1,0 +1,33 @@
+.container1 {
+    margin: 25px 0 0 50px;
+    width: 90%;
+    height: 225px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container1 img {
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgb(19, 77, 77, .5);
+    transition: all ease-in-out 0.5s;
+    position: relative;
+}    
+
+.container1 img:hover {
+    width: 25%;
+}
+
+.container1 img::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    color: #fff;
+    padding: 5px;
+    font-size: 0.8em;
+}

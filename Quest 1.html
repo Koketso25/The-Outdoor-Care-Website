@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Quest 1</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-
+    scale=1">
+    <link rel="stylesheet" href="Image Gallery 2.css">
+    <link rel="stylesheet" href="Outdoor Care Style.css">
+
+    <style>
+    
+    /* Style the links */
+    a:link {
+      color: teal;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: cyan;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      color: limegreen;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+
+    a:active {
+      color: purple;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+ 
+    /* This is for body and article */
+    . {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-image: url('Rain Forest.jpg');
+        font-family: 'Courier New', Courier, monospace;
+        line-height: 1.6;
+        color: #c9c9c9;
+    }
+
+    article {
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: rgb(19, 77, 77, .5);
+        border: 1px solid teal;
+        box-shadow: 0 0 10px rgb(14, 78, 104);
+    }
+
+
+
+    /* Style the header and the navigation list */
+    header {
+        background-color: rgb(19, 77, 77, .6);
+        backdrop-filter: blur;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .navbar {
+        background: rgb(19, 77, 77, .6);
+        backdrop-filter: blur;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .navbar ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .navbar li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    .navbar a {
+      color: #f3f3f3;
+      text-decoration: none;
+      padding: 10px;
+    }
+
+    .navbar a:hover {
+      background-color: rgba(6, 214, 186, .5);
+      backdrop-filter: blur;
+    }
+
+    /* Style the containers, headings and paragraphs. */
+    
+    * {
+        box-sizing: border-box;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+        font-weight: bolder;
+        color: #f3f3f3;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 18px;
+        font-weight: bold;
+        color: #f3f3f3;
+        margin-bottom: 5px;
+    }
+
+    p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    p + p {
+        text-indent: 20px;
+    }
+    </style>
+</head>
+<body>
+
+<header>
+    <svg height="130" width="500">
+        <defs>
+            <linearGradient id="grad1">
+                <stop offset="0%" stop-color="teal" />
+                <stop offset="100%" stop-color="cyan" />
+            </linearGradient>
+        </defs>
+        <ellipse cx="100" cy="70" rx="85" ry="55" 
+        fill="url(#grad1)" />
+        <text fill="#ffffff" font-size="45" 
+        font-family="Verdana" x="50" y="86">Outdoor Care</text>
+    </svg>
+</header>
+
+<section>
+    <nav class="navbar">
+        <ul>  
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+    </nav>
+</section>
+
+<div class="container1">
+    <img src="Garden 1.jpg" alt="image name">
+    <img src="Garden 2.jfif">
+    <img src="Garden 3.jpg">
+    <img src="Garden 4.webp">
+    <img src="Garden 5.webp">
+</div>
+
+<article>
+  <div>
+    <h1>Gardening</h1>
+    <p>Are you ready to take your garden to the next level? Look no further! Here are the three
+       cutting-edge gardening services Outdoor Care offers to transform your outdoor space into a 
+       thriving oasis.   
+    </p>
+  </div>
+
+  <div class="container">
+    <div class="">
+        <h2>1.Vertical Gardening: <i>Maximizing Space</i></h2>
+        <p>WE make the most of your walls with trellises, arbors, or wall-mounted planters. Train vining
+             plants like tomatoes, peas, or cucumbers to grow upwards, adding a new dimension to your
+              garden.
+        </p>
+    </div>
+
+    <div class="">
+        <h2>2.Keyhole Gardening: <i>Efficient Design</i></h2>
+        <p>We create a circular bed with a narrow path leading to a central composting area. 
+            This design reduces waste, increases efficiency, and makes maintenance a breeze.
+        </p>
+    </div>
+
+    <div class="">
+        <h2>3.Classic Home Garden: </h2>
+        <p>*We create a gerb garden near your kitchen for fresh flavors.<br>
+        *Incorporate a rain garden to manage stormwater runoff.<br>
+        *Build a trellis for climbing plants like roses or peas.<br>
+        <b>And much much more!!!</b></p>
+    </div>
+  </div>
+</article>
+
+<footer>
+    <div class="contact-info">
+        <h3>Contact Us</h3>
+        <p>Address: 3753 Celtis Rd, Stretford, Gauteng</p>
+        <p>Phone: 011-777-2865</p>
+        <p>Email: <a href="mailto:outdoorcenter@gmail.com">outdoorcenter@gmail.com</a></p>
+    </div>
+    <div class="copyright-legal">
+        <p>&copy; 2024 The Outdoor Care Company. All rights reserved.</p>
+        <p><a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a></p>
+    </div>
+</footer>
+
+</body>
+</html>
