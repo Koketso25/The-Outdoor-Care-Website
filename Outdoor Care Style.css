@@ -82,12 +82,12 @@ p + p {
 footer {
     background-color: rgb(19, 77, 77, .6);
     backdrop-filter: blur;
-    padding: 1px;
+    padding: 10px;
+    margin: 10px;
     text-align: center;
-    height: 20%;
 }
 .contact-info {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .copyright-legal {
     font-size: 0.8em;

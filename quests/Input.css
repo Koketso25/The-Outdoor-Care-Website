@@ -1,0 +1,41 @@
+.body {
+    background-color: teal;
+}
+
+.input-group {
+    position: relative;
+}
+
+.input-group_input {
+    font: inherit;
+    color: #04b7c4;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    outline: 2px solid teal;
+    background-color: transparent;
+    transition: outline-color 800ms;
+}
+
+.input-group_input:is(:focus, :valid) {
+    outline-color: powderblue;
+}
+
+.input-group_label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    translate: 10px 10px;
+    color: #069aa1;
+    transition: translate 500ms, scale 500ms;
+}
+
+.input-group_input:focus +
+.input-group_label,
+.input-group_input:valid +
+.input-group_label {
+    padding-inline: 5px;
+    translate: 10px -14px;
+    scale: 0.8;
+    background-color: transparent;
+}
