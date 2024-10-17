@@ -78,3 +78,9 @@ body {
 .signup-link a:hover {
     color:#5a7ce8;
 }
+
+@media screen and (max-width: 1400px) {
+    .login-form-container {
+        width: 50%;
+    }     
+}

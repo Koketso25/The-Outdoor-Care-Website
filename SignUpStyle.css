@@ -104,3 +104,9 @@ body {
     height: 20px;
     margin-right: 10px;
 }
+
+@media screen and (max-width: 1400px) {
+    .signup-form-container {
+        width: 50%;
+    }     
+}
