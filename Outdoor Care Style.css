@@ -83,10 +83,9 @@ p + p {
 footer {
     background-color: rgb(19, 77, 77, .6);
     backdrop-filter: blur;
-    margin: 10px auto;
     padding: 1px;
     text-align: center;
-    height: 3%;
+    height: 20%;
 }
 
 footer > h3, p, a {
@@ -96,7 +95,7 @@ footer > h3, p, a {
 }
 
 .contact-info {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .copyright-legal {
     font-size: 0.8em;
