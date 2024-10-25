@@ -12,10 +12,10 @@ body {
     color: #c9c9c9;
 }
 article {
-    max-width: 800px;
+    max-width: 400px;
     margin: 40px auto;
     padding: 20px;
-    background-color: rgb(19, 77, 77, .5);
+    background-color: rgb(9, 65, 65);
     border: 1px solid teal;
     box-shadow: 0 0 10px rgb(14, 78, 104);
 }
@@ -50,13 +50,21 @@ header {
   padding: 10px;
 }
 .navbar a:hover {
-  background-color: rgba(6, 214, 186, .5);
+  background-color: rgba(16, 126, 109, 0.959);
   backdrop-filter: blur;
 }
     
 * {
     box-sizing: border-box;
 }
+
+.center-div {
+    padding: 20px 10px;
+    margin-top: 10px;
+    width: 500px;
+    background-color: teal;
+}
+
 .container {
     padding: 20px;
 }
@@ -85,7 +93,7 @@ footer {
     backdrop-filter: blur;
     padding: 1px;
     text-align: center;
-    height: 20%;
+    height: 15%;
 }
 
 footer > h3, p, a {

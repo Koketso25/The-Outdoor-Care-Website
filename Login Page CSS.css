@@ -79,6 +79,32 @@ body {
     color:#5a7ce8;
 }
 
+.social-login {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-gmail {
+    background-color: transparent;
+    color: rgb(14, 78, 104);
+    src: url(/facebook.ico);
+}
+
+.btn-google {
+    background-color: transparent;
+    color: rgb(14, 78, 104);
+}
+
+.btn-github {
+    background-color: transparent;
+    color: rgb(14, 78, 104);
+}
+
+.btn-facebook {
+    background-color: transparent;
+    color: rgb(14, 78, 104);
+}
+
 @media screen and (max-width: 1400px) {
     .login-form-container {
         width: 50%;
